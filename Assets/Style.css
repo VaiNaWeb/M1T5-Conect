@@ -67,7 +67,7 @@
     margin-top: 15px;
     z-index: 1;
 }
-/*------ Section 2 ------ */
+/*------ Section 2 ------ */ /* ESSA SECTION EU ESTOU FAZENDO SEPARADO, VCS NÃO PRECISAM MEXER NELA */
 .section2{
     display: flex;
 }
@@ -128,12 +128,18 @@
 /*------ Section 3 ------ */
 .section3{
     width:100%;
-    height:400px;
+    height:auto;
+    min-width: 360px;
     background:#fff;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.s3-container{
+    max-width: 1366px;
+    min-width: 360px;
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items:center;
-    justify-items: center;
     justify-content: center;
 }
 .ask3{
@@ -146,21 +152,30 @@
     border-bottom: solid 6px #d61727;
 }
 .answer3{
-    width:600px;
+    width:50%;
     margin-top:35px;
     font-size:28px;
-    margin-left: 190px;
-    text-align:left;
+    margin-left: 255px;
     font-family: 'Lora', serif;
     color:#000;
 }
-/*------ Section 4 ------ */
+/*------ Section 4 ------ */ /* ESSA SECTION EU ESTOU FAZENDO SEPARADO, VCS NÃO PRECISAM MEXER NELA */
 .section4{
     background-color: #732F35;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 687px;
+    height: auto;
+    min-width: 360px;
+    padding: 53px ;
+}
+.s4-container{
+    max-width: 1366px;
+    min-width: 360px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .s4-gallery{
     display: flex;
@@ -218,24 +233,61 @@
     font-weight: 400;
     font-size: 20px;
 }
-/*------ Section 5 ------ */
+/*------ Section 5 ------ */ /* ESSA SECTION EU ESTOU FAZENDO SEPARADO, VCS NÃO PRECISAM MEXER NELA */
 .section5{
     background-color: #D61727;
     width: 100%;
-    height: 625px;
+    height: auto;
     display: flex;
     justify-content: center;
 }
+    @media (max-width: 500px){
+        .section5{
+            height: auto;
+        }
+    }
 .s5-container{
-    background-color: #fff;
+    background-color: aqua;
+    width: 85%;
+    height: 517px;
+    max-width: 1366px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    display: flex;
+}
+    @media (max-width: 500px){
+        .s5-container{
+            flex-direction: column;
+        }
+    }
+.s5-box{
+    width: 52%;
+    height: 517px;
+    background-color: #FFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 517px;
-    width: 600px;
-    margin-top: 85px;
-    padding-left: 33px;
+}
+    @media (max-width: 500px){
+        .s5-box{
+            width: 100%;
+            height: 517px;
+        }
+    }
+.s5-box-container{
+    width: 75%;
+}
+.s5-img{
+    width: 48%;
+}
+    @media (max-width: 500px){
+        .s5-img{
+            width: 100%;
+        }
+    }
+.s5-img2{
+    width: 100%;
 }
 .s5-c1-img{
     margin-top: 15px;
@@ -253,15 +305,24 @@
     margin-left: 23px;
 }
 .s5-c2-img{
-    margin-top: 85px;
+    width: 20%;
 }
 /*------ Section 6 ------ */
 .section6{
-    height: 1334px;
+    height: auto;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding-top: 171px;
+    padding-bottom: 109px;
+    min-width: 360px;
+}
+.s6-container{
+    max-width: 1366px;
+    min-width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .s6-gallery{
     width: 80%;
@@ -305,10 +366,18 @@
     text-transform: uppercase;
     line-height: 40px;
 }
-/*------ Section 7 ------- */
+/*------ Section 7 ------ */
 .section7{
-    height: 687px;
+    height: auto;
     background-color: #732F35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px ;
+}
+.s7-container{
+    max-width: 1366px;
+    min-width: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,7 +389,7 @@
     color: #fff;
     font-family: 'Lora', serif;
     font-size: 36px;
-    width: 570px;
+    width: 90%;
     margin-bottom: 60px;
 }
 .s7-button{
