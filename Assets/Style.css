@@ -1,0 +1,975 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ------ HEADER ------ *//*html : Cleidemara Css: Cleidemaraa*/
+.header{
+    display: flex;
+    justify-content: center;
+    height: 84px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+    @media(width:768px){
+        .header-container{
+        max-width: 45vw;
+        }
+    }
+.logo-connect{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.header-img{
+    margin-top: 12px;
+}
+    @media(width:768px){
+        .header-img{
+        margin: 0;
+        }
+    }  
+/* ------ MAIN ------ */
+
+/* ------ Section 1 ------ */      /*html : Cleidemara Css: Matheus e Cleidemara*/  
+.section1-bgi{ 
+    background-image: url("Images/Rectangle1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-width: 360px;
+}
+.s1-container{
+    max-width: 1366px;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.section1-bgi:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    top: 84px;
+}
+.section1-text{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s1-title{ 
+    color: #FFFFFF;;
+    font-size: 56px;
+    font-family: 'Lora', serif;
+    position: relative;
+    z-index: 1;
+}
+    @media (max-width: 767px){
+        .s1-title{
+            font-size: 49px;
+        }
+    }
+    @media (max-width: 400px){
+        .s1-title{
+            font-size: 45px;
+        }
+    }
+.s1-p{
+    color: #E5E5E5;
+    font-size: 28px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    width: 80%;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 15px;
+    z-index: 1;
+}
+    @media (max-width: 767px){
+        .s1-p{
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+/* ------ Section 2 ------ */ /*html : Cleidemara Css: Matheus*/ 
+.section2{
+    display: flex;
+}
+@media (max-width: 1023px){
+    .section2{
+        flex-direction: column;
+    }
+}
+.s2-d1{
+    background-color: #D61727;
+    width: 50vw;
+    height: 34vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    @media (max-width: 1023px){
+        .s2-d1{
+            width: 100vw;
+            height: 100vw;
+        }
+    }
+.s2-d1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 85%;
+    min-width: 350px;
+    max-width: 1366px;
+}
+    @media (max-width: 1160px){
+        .s2-d1-container{
+            min-width: 300px;
+        }
+    }
+.s2-h2-1{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Lora', serif;;
+}
+.s2-h2-2{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Lora', serif;;
+}
+.s2-h2-3{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Lora', serif;;
+}
+    @media (max-width: 1160px){
+        .s2-h2-3{
+            line-height: 48px;
+        }
+    }
+.underline{
+    border-bottom: solid 5px #732F35;
+    padding-bottom: 10px;
+}
+.s2-p-1{
+    color: #FFFFFF;
+    font-size: 19.5px;
+    width: 100%;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.s2-p-2{
+    color: #FFFFFF;
+    font-size: 19.5px;
+    width: 100%;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.s2-p-3{
+    color: #FFFFFF;
+    font-size: 19.5px;
+    width: 100%;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+    @media (max-width: 1160px){
+        .s2-p-3{
+            margin-top: 0;
+            width: 100%;
+        }
+    }
+    @media (max-width: 1023px){
+        .s2-p-3{
+            margin-top: 22px;
+        }
+    }
+.s2-d2{
+    background-color: #732F35;
+    width: 50vw;
+    height: 34vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    @media (max-width: 1023px){
+        .s2-d2{
+            width: 100vw;
+            height: 100vw;
+        }
+    }
+.s2-d2-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 85%;
+    margin-top: 25px;
+}
+.underline2{
+    border-bottom: solid 5px #D61727;
+    padding-bottom: 10px;
+}
+/*------ Section 3 ------ */ /*html : Cleidemara Css: Cleidemara*/
+.section3{
+    width:100%;
+    height:auto;
+    min-width: 360px;
+    background:#fff;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+    @media (max-width: 1023px){
+        .section3{
+            padding-left: 25px;
+            padding-right: 25px;
+        } 
+    }
+    @media (max-width: 767px){
+        .section3{
+            padding-left: 0;
+            padding-right: 25px;
+        } 
+    }
+.s3-container{
+    max-width: 1366px;
+    min-width: 360px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}    
+    @media (max-width:767px){
+        .s3-container{
+            justify-content: space-around;
+        } 
+    }
+.ask3{
+    font-size:36px;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+}
+    @media (max-width: 1023px){
+        .ask3{
+            font-size: 32px;
+        } 
+    }
+    @media (max-width:767px){
+        .ask3{
+            font-size:26px;
+            line-height: 49px;
+            }        
+    }
+.underline2{
+    border-bottom: solid 6px #d61727;
+}
+.answer3{
+    width:48%;
+    margin-top:35px;
+    font-size:28px;
+    margin-left: 18vw;
+    font-family: 'Lora', serif;
+    color:#000;
+}
+    @media (max-width: 1023px){
+        .answer3{
+            width: 60%;
+            font-size: 24px;
+        } 
+    }
+    @media (max-width:767px){
+        .answer3{
+            width: 100%;
+            font-size: 19px;
+            margin-left: 0;
+        }
+}
+/*------ Section 4 ------ */ /*html : Matheus Css: Matheus*/
+.section4{
+    background-color: #732F35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-width: 360px;
+    padding: 53px ;
+}
+    @media (max-width: 767px){
+        .section4{
+            padding: 35px 0;
+        }
+    }
+.s4-container{
+    max-width: 1366px;
+    min-width: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    @media (max-width: 767px){
+        .s4-container{
+            flex-direction: column-reverse;
+        }
+    } 
+.s4-gallery{
+    display: flex;
+    flex-direction: column;
+}
+    @media (max-width: 767px){
+        .s4-gallery{
+            width: 85%;
+        }
+    }
+.s4-g-group{
+    display: flex;
+}
+    @media (max-width: 767px){
+        .s4-g-group{
+            flex-direction: column;
+        } 
+    } 
+.s4-gallery-box{
+    background-color: #D61727;
+    width: 270px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+    @media (max-width: 1023px){
+        .s4-gallery-box{
+            height: 148px;
+            width: 228px;
+        }
+    }
+    @media (max-width: 767px){
+        .s4-gallery-box{
+            width: 100%;
+            height: 55vw;
+            margin-right: 0;
+        }
+    } 
+.s4-g-b-p{
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 80%;
+}
+    @media (max-width: 1023px){
+        .s4-g-b-p{
+            font-size: 17px;
+        }
+    }
+    @media (max-width: 767px){
+        .s4-g-b-p{
+            font-size: 17px;
+        } 
+    }     
+.s4-gallery-margin{
+    margin-right: 10px;
+}
+    @media (max-width: 767px){
+        .s4-gallery-margin{
+            margin-right: 0px;
+        }
+    } 
+.s4-gallery-margin2{
+    margin-top: 10px;
+}
+.s4-whitebox{
+    background-color: #fff;
+    height: 582px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+    @media (max-width: 1023px){
+        .s4-whitebox{
+            height: 493px;
+        }
+    }
+    @media (max-width: 767px){
+        .s4-whitebox{
+            height: 493px;
+            margin-left: 0;
+            width: 85%;
+        }    
+    } 
+.s4-wbox-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.s4-wbox-h2{
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    font-weight: 600;
+    width: 75%;
+    margin-bottom: 30px;
+}
+    @media (max-width: 1023px){
+        .s4-wbox-h2{
+            font-size: 24px;
+            width: 95%;
+        }
+    }
+    @media (max-width: 767px){
+        .s4-wbox-h2{
+            font-size: 24px;
+        }
+    } 
+.s4-wbox-p{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+    @media (max-width: 1023px){
+        .s4-wbox-p{
+            font-size: 17px;
+        }
+    }
+    @media (max-width: 767px){
+        .s4-wbox-p{
+            font-size: 17px;
+        }
+    }     
+    /*S4 Outras Medias*/
+@media (max-width: 1023px){
+    .img-r{
+        height: 335px;
+    }
+    .img-r2{
+        height: 148px;
+    }
+}
+@media (max-width: 767px){
+    .img-r{
+        margin-top: 10px;
+        height: auto;
+    }
+    .img-r2{
+        height: auto;
+    }
+    .s4-img-w{
+        width: 100%;
+    } 
+}    
+/*------ Section 5 ------ */ /*html : Matheus Css: Matheus*/
+.section5{
+    background-color: #D61727;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    min-width: 360px;
+}
+    @media (max-width: 1023px){
+        .section5{
+            height: auto;
+    }
+}    
+.s5-container{
+    width: 85%;
+    height: auto;
+    max-width: 1366px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    display: flex;
+}
+    @media (max-width: 1023px){
+        .s5-container{
+            flex-direction: column;
+        }
+    }
+.s5-box{
+    width: 52%; 
+    height: auto;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 50px; 
+    padding-top:15px ;
+    padding-left: 35px;
+    padding-bottom: 3vh;
+}
+    @media (max-width: 1023px){
+        .s5-box{
+            width: 100%;
+            padding-left: 23px;
+        }
+    }
+    @media (max-width: 425px){
+        .s5-box{
+            padding-left: 21px;
+            padding-right: 21px;
+        }
+    }
+.s5-box-container{
+    width: 100%;
+    height: 78%; /* AQUI */
+}
+.s5-img{
+    width: 48%;
+}
+    @media (max-width: 1023px){
+        .s5-img{
+            width: 100%;
+        }
+    }
+.s5-img2{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.s5-g-img{
+    width: 15%;
+}
+    @media (max-width: 1023px){
+        .s5-g-img{
+            width: 70px;
+        }
+    }
+.s5-c-title{
+    margin-bottom: 30px;
+    width: 100%;
+}
+@media (max-width: 1200px){
+    @media (max-width: 1023px){
+        .s5-c-title{
+            margin-top: 10%;
+        }
+    }
+}    
+.s5-c-h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+    @media (max-width: 425px){
+        .s5-c-h2{
+            font-size: 35px;
+        }
+    }
+.s5-group{
+   display: flex;
+   align-items: center;
+   margin-bottom: 8%;
+
+} 
+.s5-group-p{
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-left: 23px;
+}
+    @media (max-width: 1200px){
+        .s5-group-p{
+            font-size: 21px;
+        }
+    }
+/* ------ Section 6 ------ */     /*html : Matheus Css: Matheus*/
+.section6{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 171px;
+    padding-bottom: 109px;
+    min-width: 360px;
+}
+.s6-container{
+    max-width: 1366px;
+    min-width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s6-gallery{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+    @media (max-width: 1023px){
+        .s6-gallery{
+            width: 100%;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    }
+.s6-g-div1{
+    width: 28.4%;
+    margin-right: 77px;
+    margin-bottom: 77px;
+}
+    @media (max-width: 1300px){
+        .s6-g-div1{
+            margin-right: 59px;
+            margin-bottom: 59px;
+        }
+    }
+    @media (max-width: 1023px){
+        .s6-g-div1{
+            width: 100%;
+        }
+    }
+.s6-g-div2{
+    width: 28.4%;
+    margin-right: 77px;
+    margin-bottom: 77px;
+}
+    @media (max-width: 1300px){
+        .s6-g-div2{
+            margin-right: 59px;
+            margin-bottom: 59px;
+        }  
+    }
+    @media (max-width: 1023px){
+        .s6-g-div2{
+            width: 100%;
+        }
+    }
+.s6-g-div3{
+    width: 28.4%;
+    margin-bottom: 77px;
+}
+    @media (max-width: 1300px){
+        .s6-g-div3{
+            margin-bottom: 59px;
+        }
+    }
+    @media (max-width: 1023px){
+        .s6-g-div3{
+            width: 100%;
+        }
+    }
+.s6-g-div4{
+    width: 28.4%;
+    margin-right: 77px;
+    margin-bottom: 77px;
+}
+    @media (max-width: 1300px){
+        .s6-g-div4{
+            margin-right: 59px;
+            margin-bottom: 59px;
+        }
+    }
+    @media (max-width: 1023px){
+        .s6-g-div4{
+            width: 100%;
+        }
+    }
+.s6-g-div5{
+    width: 28.4%;
+    margin-right: 77px;
+    margin-bottom: 77px;
+}
+    @media (max-width: 1300px){
+        .s6-g-div5{
+            margin-right: 59px;
+            margin-bottom: 59px;
+        }
+    }
+    @media (max-width: 1023px){
+        .s6-g-div5{
+            width: 100%;
+        }
+    }
+.s6-g-div6{
+    width: 28.4%;
+    margin-bottom: 77px;
+}
+    @media (max-width: 1300px){
+        .s6-g-div6{
+            margin-bottom: 59px;
+        }
+    }
+    @media (max-width: 1023px){
+        .s6-g-div6{
+            width: 100%;
+        }
+    }
+.s6-g-div7{
+    width: 28.4%;
+    margin-right: 77px;
+}
+    @media (max-width: 1300px){
+        .s6-g-div7{
+            margin-right: 59px;
+        }
+    }
+    @media (max-width: 1023px){
+        .s6-g-div7{
+            width: 100%;
+            margin-bottom: 59px;
+        }
+    }
+.s6-g-div8{
+    width: 28.4%;
+    margin-right: 77px;
+}
+    @media (max-width: 1300px){
+        .s6-g-div8{
+            margin-right: 59px;
+        }    
+    }
+    @media (max-width: 1023px){
+        .s6-g-div8{
+            width: 100%;
+            margin-bottom: 59px;
+        }
+    }
+.s6-g-m{
+    margin-bottom: 77px;
+}
+.s6-g-m2{
+    margin-right: 77px;
+}
+.s6-g-img{
+    width: 100%;
+}
+.s6-g-box{
+    width: 300px;
+    height: 300px;
+    margin-right: 77px;
+    margin-bottom: 77px;
+    position: relative;
+}
+.s6-g-box-img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+.s6-g-box-triangle{
+    width: 300px;
+    border-bottom: 300px solid #FFF;
+    border-right: 0px solid #FFF;
+    border-left: 300px solid transparent;
+    position: absolute;
+}
+.s6-g-box2{
+    width: 28.4%;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+    @media (max-width: 1023px){
+        .s6-g-box2{
+            width: 100%;
+        }
+    }
+.s6-g-b2-p{
+    font-family: 'Lora', serif;
+    font-size: 1.8vw;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+    @media (max-width: 1023px){
+        .s6-g-b2-p{
+            line-height: 125px;
+            font-size: 6.8vw;
+        }
+    }
+    @media (max-width: 767px){
+        .s6-g-b2-p{
+            line-height: 66px;
+            font-size: 6.8vw;
+        }
+    }
+/* ------ Section 6 ------ */     /*html : Matheus Css: Matheus*/    
+.section7{
+    height: auto;
+    background-color: #732F35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px;
+}
+    @media (max-width: 1023px){
+        .section7{
+            padding-top: 44px;
+            padding-bottom: 44px;
+        }
+    }
+.s7-container{
+    max-width: 1366px;
+    min-width: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    @media (max-width: 1023px){
+        .s7-container{
+            flex-direction: column;
+        }
+    }
+.s7-img-box{
+    width: 50%; 
+}
+    @media (max-width: 1023px){
+        .s7-img-box{
+            width: 90%;
+        }
+    }
+.s7-img{
+    width: 100%; 
+}
+.s7-text{
+    margin-left: 50px;
+    width:50%
+}
+    @media (max-width: 1023px){
+        .s7-text{
+            width: 90%;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+        }
+    }
+    @media (max-width: 767px){
+        .s7-text{
+            margin-top: 30px;
+
+        }
+    }
+.s7-t-p{
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 2.7vw;
+    width: 90%;
+    margin-bottom: 10%;
+}
+    @media (max-width: 1023px){
+        .s7-t-p{
+            width: 100%;
+            text-align: center;
+            font-size: 3.5vw;
+        }
+    }
+    @media (max-width: 767px){
+        .s7-t-p{
+            font-size: 5vw;
+        }
+    }
+.s7-button{
+    background-color: #fff;
+    color: #d61727;
+    width: 19vw;
+    height: 6.6vw;
+    border-style: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0);
+    font-size: 1.8vw;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+    @media (max-width: 1023px){
+        .s7-button{
+            width: 25vw;
+            height: 9vw;
+            font-size: 2.2vw;
+        }
+    }
+    @media (max-width: 767px){
+        .s7-button{
+            width: 30vw;
+            height: 11vw;
+            font-size: 3.3vw;
+        }
+    }     
+    /*------ FOOTER ------ */ /*html : Cleidemara Css: Cleidemara*/
+.footer{
+    height: 123px;
+    display: flex;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87vw;
+}
+.footer-icons{
+    display: flex;
+}
+.footer-icons-click{
+    cursor: pointer;
+}
+.footer-icon-m{
+    margin-right: 21px;
+}
+    @media (max-width: 768px){
+    .footer-icon-m{
+        width: 30px;
+        margin-right: 1px;
+    }
+}
+.footer-p{
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+    @media (max-width: 768px){
+    .footer-p{
+        font-size: 15px;
+        margin: 10px;
+    }
+}
+.footer-button{
+    border-style: none;
+    outline: none;
+    border: 2px solid #732F35;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 163px;
+    height: 55.21px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+    @media (max-width: 768px){
+    .footer-button{
+        width: 103px;
+        height: 25.21px;
+        font-size: 15px;
+        font-weight: 300px;
+        }
+}   
