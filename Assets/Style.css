@@ -542,7 +542,7 @@
             flex-direction: column;
         }
     }
-.s5-box{
+.s5-whattodo{
     width: 52%; 
     height: auto;
     background-color: #FFF;
@@ -556,79 +556,79 @@
     padding-bottom: 3vh;
 }
     @media (max-width: 1023px){
-        .s5-box{
+        .s5-whattodo{
             width: 100%;
             padding-left: 23px;
         }
     }
     @media (max-width: 425px){
-        .s5-box{
+        .s5-whattodo{
             padding-left: 21px;
             padding-right: 21px;
         }
     }
-.s5-box-container{
+.whattodo-container{
     width: 100%;
     height: 78%; /* AQUI */
 }
-.s5-img{
+.whattodo-img{
     width: 48%;
 }
     @media (max-width: 1023px){
-        .s5-img{
+        .whattodo-img{
             width: 100%;
         }
     }
-.s5-img2{
+.whattodo-img-width{
     width: 100%;
     max-width: 100%;
     max-height: 100%;
     display: block;
 }
-.s5-g-img{
+.whattodo-group-width{
     width: 15%;
 }
     @media (max-width: 1023px){
-        .s5-g-img{
+        .whattodo-group-width{
             width: 70px;
         }
     }
-.s5-c-title{
+.whattodo-title{
     margin-bottom: 30px;
     width: 100%;
 }
 @media (max-width: 1200px){
     @media (max-width: 1023px){
-        .s5-c-title{
+        .whattodo-title{
             margin-top: 10%;
         }
     }
 }    
-.s5-c-h2{
+.whattodo-h2{
     font-size: 40px;
     text-transform: uppercase;
     font-family: 'Lora', serif;
     font-weight: 600;
 }
     @media (max-width: 425px){
-        .s5-c-h2{
+        .whattodo-h2{
             font-size: 35px;
         }
     }
-.s5-group{
+.whattodo-group{
    display: flex;
    align-items: center;
    margin-bottom: 8%;
 
 } 
-.s5-group-p{
+.group-paragraph{
     font-family: 'Lora', serif;
     font-size: 24px;
     text-transform: uppercase;
     margin-left: 23px;
 }
     @media (max-width: 1200px){
-        .s5-group-p{
+        .group-paragraph{
             font-size: 21px;
         }
     }
@@ -656,140 +656,134 @@
 }
     @media (max-width: 1023px){
         .s6-gallery{
-            width: 100%;
+            width: 85%;
             flex-direction: column;
             flex-wrap: nowrap;
         }
     }
-.s6-g-div1{
+.s6-gallery-div1{
     width: 28.4%;
     margin-right: 77px;
     margin-bottom: 77px;
 }
     @media (max-width: 1300px){
-        .s6-g-div1{
+        .s6-gallery-div1{
             margin-right: 59px;
             margin-bottom: 59px;
         }
     }
     @media (max-width: 1023px){
-        .s6-g-div1{
+        .s6-gallery-div1{
             width: 100%;
         }
     }
-.s6-g-div2{
+.s6-gallery-div2{
     width: 28.4%;
     margin-right: 77px;
     margin-bottom: 77px;
 }
     @media (max-width: 1300px){
-        .s6-g-div2{
+        .s6-gallery-div2{
             margin-right: 59px;
             margin-bottom: 59px;
         }  
     }
     @media (max-width: 1023px){
-        .s6-g-div2{
+        .s6-gallery-div2{
             width: 100%;
         }
     }
-.s6-g-div3{
+.s6-gallery-div3{
     width: 28.4%;
     margin-bottom: 77px;
 }
     @media (max-width: 1300px){
-        .s6-g-div3{
+        .s6-gallery-div3{
             margin-bottom: 59px;
         }
     }
     @media (max-width: 1023px){
-        .s6-g-div3{
+        .s6-gallery-div3{
             width: 100%;
         }
     }
-.s6-g-div4{
+.s6-gallery-div4{
     width: 28.4%;
     margin-right: 77px;
     margin-bottom: 77px;
 }
     @media (max-width: 1300px){
-        .s6-g-div4{
+        .s6-gallery-div4{
             margin-right: 59px;
             margin-bottom: 59px;
         }
     }
     @media (max-width: 1023px){
-        .s6-g-div4{
+        .s6-gallery-div4{
             width: 100%;
         }
     }
-.s6-g-div5{
+.s6-gallery-div5{
     width: 28.4%;
     margin-right: 77px;
     margin-bottom: 77px;
 }
     @media (max-width: 1300px){
-        .s6-g-div5{
+        .s6-gallery-div5{
             margin-right: 59px;
             margin-bottom: 59px;
         }
     }
     @media (max-width: 1023px){
-        .s6-g-div5{
+        .s6-gallery-div5{
             width: 100%;
         }
     }
-.s6-g-div6{
+.s6-gallery-div6{
     width: 28.4%;
     margin-bottom: 77px;
 }
     @media (max-width: 1300px){
-        .s6-g-div6{
+        .s6-gallery-div6{
             margin-bottom: 59px;
         }
     }
     @media (max-width: 1023px){
-        .s6-g-div6{
+        .s6-gallery-div6{
             width: 100%;
         }
     }
-.s6-g-div7{
+.s6-gallery-div7{
     width: 28.4%;
     margin-right: 77px;
 }
     @media (max-width: 1300px){
-        .s6-g-div7{
+        .s6-gallery-div7{
             margin-right: 59px;
         }
     }
     @media (max-width: 1023px){
-        .s6-g-div7{
+        .s6-gallery-div7{
             width: 100%;
             margin-bottom: 59px;
         }
     }
-.s6-g-div8{
+.s6-gallery-div8{
     width: 28.4%;
     margin-right: 77px;
 }
     @media (max-width: 1300px){
-        .s6-g-div8{
+        .s6-gallery-div8{
             margin-right: 59px;
         }    
     }
     @media (max-width: 1023px){
-        .s6-g-div8{
+        .s6-gallery-div8{
             width: 100%;
             margin-bottom: 59px;
         }
     }
-.s6-g-m{
-    margin-bottom: 77px;
-}
-.s6-g-m2{
-    margin-right: 77px;
-}
-.s6-g-img{
+.s6-gallery-width{
     width: 100%;
 }
 .s6-g-box{
@@ -811,7 +805,7 @@
     border-left: 300px solid transparent;
     position: absolute;
 }
-.s6-g-box2{
+.technological-div{
     width: 28.4%;
     background-color: #FFF;
     display: flex;
@@ -819,26 +813,26 @@
     justify-content: center;
 }
     @media (max-width: 1023px){
-        .s6-g-box2{
+        .technological-div{
             width: 100%;
             justify-content: center;
         }
     }
-.s6-g-b2-p{
+.technological-paragraph{
     font-family: 'Lora', serif;
     font-size: 1.8vw;
     text-transform: uppercase;
     line-height: 40px;
 }
     @media (max-width: 1023px){
-        .s6-g-b2-p{
+        .technological-paragraph{
             line-height: 125px;
             font-size: 6.8vw;
             width: 90%;
         }
     }
     @media (max-width: 767px){
-        .s6-g-b2-p{
+        .technological-paragraph{
             line-height: 66px;
             font-size: 6.8vw;
         }
@@ -854,8 +848,7 @@
 }
     @media (max-width: 1023px){
         .section7{
-            padding-top: 44px;
-            padding-bottom: 44px;
+            padding: 44px 0;
         }
     }
 .s7-container{
@@ -871,24 +864,24 @@
             flex-direction: column;
         }
     }
-.s7-img-box{
+.photo-div{
     width: 50%; 
 }
     @media (max-width: 1023px){
-        .s7-img-box{
-            width: 90%;
+        .photo-div{
+            width: 85%;
         }
     }
-.s7-img{
+.photo{
     width: 100%; 
 }
-.s7-text{
+.photo-text-div{
     margin-left: 50px;
     width:50%
 }
     @media (max-width: 1023px){
-        .s7-text{
-            width: 90%;
+        .photo-text-div{
+            width: 87%;
             margin-top: 50px;
             display: flex;
             flex-direction: column;
@@ -897,12 +890,11 @@
         }
     }
     @media (max-width: 767px){
-        .s7-text{
+        .photo-text-div{
             margin-top: 30px;
-
         }
     }
-.s7-t-p{
+.photo-paragraph{
     color: #fff;
     font-family: 'Lora', serif;
     font-size: 2.7vw;
@@ -910,18 +902,18 @@
     margin-bottom: 10%;
 }
     @media (max-width: 1023px){
-        .s7-t-p{
+        .photo-paragraph{
             width: 100%;
             text-align: center;
             font-size: 3.5vw;
         }
     }
     @media (max-width: 767px){
-        .s7-t-p{
+        .photo-paragraph{
             font-size: 5vw;
         }
     }
-.s7-button{
+.photo-button{
     background-color: #fff;
     color: #d61727;
     width: 19vw;
@@ -936,14 +928,14 @@
     cursor: pointer;
 }
     @media (max-width: 1023px){
-        .s7-button{
+        .photo-button{
             width: 25vw;
             height: 9vw;
             font-size: 2.2vw;
         }
     }
     @media (max-width: 767px){
-        .s7-button{
+        .photo-button{
             width: 30vw;
             height: 11vw;
             font-size: 3.3vw;
